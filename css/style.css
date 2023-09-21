@@ -9,6 +9,7 @@
   --c-header: #e7e9fc;
   --c-fotter: #31d0aa;
   --c-logo-secondary: #8e8f99;
+  --c-modal: #fcfcfc;
 }
 
 body {
@@ -501,4 +502,29 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+/* Modal */
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+
+.modal {
+  position: relative;
+  width: 408px;
+  background-color: var(--c-modal);
+  border-radius: 4px;
+  padding: 72px 24px 24px 24px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
 }
