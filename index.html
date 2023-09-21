@@ -447,13 +447,29 @@
     </footer>
     <div class="backdrop">
       <div class="modal">
+        <!-- <div TODO></div> -->
         <button class="modal-close" type="button">X</button>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat aut
-          alias iusto aliquam. Nihil quis quibusdam voluptates sed ut autem
-          nisi. Dolores error asperiores quibusdam at consequatur unde, porro
-          in!
-        </p>
+        <h2>Leave your contacts and we will call you back</h2>
+        <form name="contact-form">
+          <div>
+            <label for="user-info">Name</label>
+            <input id="user-info" type="text" name="user-name" />
+          </div>
+
+          <div>
+            <label for="user-phone">Phone</label>
+            <input id="user-phone" type="tel" name="user-phone" />
+          </div>
+
+          <div>
+            <label for="user-comment">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+        </form>
       </div>
     </div>
   </body>
