@@ -587,10 +587,11 @@ p {
 .modal-label {
   display: block;
   font-size: 12px;
-  /* line-height: 1.16px; */
+  line-height: 1.17px;
   letter-spacing: 0.04em;
   text-align: left;
   margin-bottom: 4px;
+  color: var(--c-logo-secondary);
 }
 
 .modal-input {
