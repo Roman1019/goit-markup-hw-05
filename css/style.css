@@ -530,3 +530,6 @@ p {
   top: 24px;
   right: 24px;
 }
+textarea {
+  resize: none;
+}
