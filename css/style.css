@@ -530,6 +530,24 @@ p {
   top: 24px;
   right: 24px;
 }
+
+.modal-field {
+}
+
+.modal-label {
+  display: block;
+  font-size: 12px;
+  /* line-height: 1.16px; */
+  letter-spacing: 0.04em;
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.modal-input {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+}
+
 textarea {
   resize: none;
 }
