@@ -507,6 +507,7 @@ p {
 /* Modal */
 
 .backdrop {
+  padding: 80px 516px 12px;
   position: fixed;
   inset: 0;
   display: flex;
@@ -536,6 +537,7 @@ p {
 }
 
 .modal-field {
+  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -548,8 +550,17 @@ p {
 }
 
 .modal-input {
+  width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+}
+
+.modal-text-area {
+  width: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  min-height: 120px;
+  padding: 8px 287px 98px 16px;
 }
 
 textarea {
