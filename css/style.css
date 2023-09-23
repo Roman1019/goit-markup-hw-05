@@ -536,7 +536,7 @@ p {
 .modal-hstyle {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--c-brnd);
@@ -564,11 +564,13 @@ p {
 .modal-close:hover {
   background-color: var(--c-header-active);
   border: none;
+  fill: var(--c-text-light);
 }
 
 .modal-close:focus {
   background-color: var(--c-header-active);
   border: none;
+  fill: var(--c-text-light);
 }
 
 .modal-close-icon {
@@ -576,14 +578,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.modal-close-icon:hover {
-  fill: var(--c-text-light);
-}
-
-.modal-close-icon:focus {
-  fill: var(--c-text-light);
 }
 
 .modal-field {
