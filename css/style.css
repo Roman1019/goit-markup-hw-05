@@ -538,6 +538,26 @@ p {
   color: var(--c-text-light);
 }
 
+.fotter-modal-button {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--c-text-light);
+  cursor: pointer;
+  background-color: var(--c-logo);
+  border: none;
+  border-radius: 4px;
+}
+
+.fotter-modal-icon {
+  margin-left: 16px;
+}
 /* Modal */
 
 .backdrop {
