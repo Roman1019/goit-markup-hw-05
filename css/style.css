@@ -631,6 +631,7 @@ p {
 
 .modal-text-area {
   border-color: var(--c-logo);
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .modal-input-wrap {
@@ -655,9 +656,6 @@ textarea {
 
 .modal-checkbox-wrap {
   margin-bottom: 24px;
-}
-
-.modal-checkbox {
 }
 
 .modal-checkbox-label {
