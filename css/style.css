@@ -634,6 +634,10 @@ p {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
+.modal-text-area:focus {
+  border-color: var(--c-logo);
+}
+
 .modal-input-wrap {
   position: relative;
 }
@@ -689,4 +693,6 @@ textarea {
 
 .modal-checkbox-input:checked + .icon-checkbox {
   background-color: var(--c-header-active);
+  border: none;
+  fill: var(--c-text-footer);
 }
