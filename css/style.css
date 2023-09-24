@@ -631,6 +631,7 @@ p {
 
 .modal-text-area {
   border-color: var(--c-logo);
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .modal-input-wrap {
@@ -680,6 +681,10 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-style-privacy {
+  color: var(--c-logo);
 }
 
 .modal-checkbox-input:checked + .icon-checkbox {
