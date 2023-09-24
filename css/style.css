@@ -607,6 +607,7 @@ p {
 
 .modal-input:focus {
   border-color: var(--c-logo);
+  fill: var(--c-logo);
 }
 
 .modal-field-textarea {
