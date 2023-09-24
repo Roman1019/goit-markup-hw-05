@@ -607,7 +607,6 @@ p {
 
 .modal-input:focus {
   border-color: var(--c-logo);
-  fill: var(--c-logo);
 }
 
 .modal-field-textarea {
@@ -661,9 +660,6 @@ textarea {
 
 .modal-checkbox-wrap {
   margin-bottom: 24px;
-}
-
-.modal-checkbox {
 }
 
 .modal-checkbox-label {
