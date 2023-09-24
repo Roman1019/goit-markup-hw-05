@@ -690,8 +690,7 @@ textarea {
 .modal-style-privacy {
   color: var(--c-logo);
 }
-
-.modal-checkbox-input:checked + .icon-checkbox {
+.modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-label {
   background-color: var(--c-header-active);
   border: none;
   fill: var(--c-text-footer);
