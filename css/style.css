@@ -663,7 +663,7 @@ p {
 }
 
 .modal-input:focus + .modal-input-icon {
-  border-color: var(--c-logo);
+  fill: var(--c-logo);
 }
 .modal-field-textarea {
   margin-bottom: 16px;
