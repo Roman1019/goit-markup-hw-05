@@ -152,6 +152,28 @@ p {
   color: var(--c-header-active);
 }
 
+.nav-link-style-before {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+  position: relative;
+  color: var(--c-brnd);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-link-style-before:hover {
+  color: var(--c-header-active);
+}
+
+.nav-link-style-before:active {
+  color: var(--c-header-active);
+}
+
+.nav-link-style-before:focus {
+  color: var(--c-header-active);
+}
+
 .nav-contact {
   color: var(--c-contact);
   font-size: 16px;
@@ -191,6 +213,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
   /* flex-shrink: 0; */
 }
 
